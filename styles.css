@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(25, 25, 112, 0.733); /* Укажите цвет фона */
+    color: whitesmoke; /* Укажите цвет текста */
+    padding: 10px 0;
+    text-align: center;
+    position: fixed; /* Зафиксируйте шапку */
+    top: 0;
+    width: 100%;
+  }
+  
+  nav {
+    display: flex; /* Выровняйте ссылки по горизонтали */
+    justify-content: space-evenly;
+    gap: 10px; /* Укажите расстояние между ссылками */
+  }
+  
+  nav a {
+    color: wheat; /* Укажите цвет ссылок */
+    text-decoration: none; /* Уберите подчеркивание */
+    padding: 10px;
+  }
+  
+
+  .hero {
+    background-image: url('https://dubaitickets.tours/wp-content/uploads/2023/03/img-worlds-of-adventure-dubai-ticket-9-1.jpg'); /* Добавьте ссылку на изображение */
+    background-size: 100%; /* Укажите размер фона */
+    background-position: center; /* Позиционируйте изображение */
+    height: 100vh; /* Укажите высоту секции */
+    display: flex; /* Используйте Flexbox */
+    justify-content: center; /* Выровняйте элементы по горизонтали */
+    align-items: center; /* Выровняйте элементы по вертикали */
+    text-align: center; /* Выровняйте текст */
+    color: rgb(203, 206, 56); /* Укажите цвет текста */
+    text-shadow: 0 0 30px black;
+  }
+
+  .hero h1{
+    text-transform: uppercase;
+  }
+
+  .hero p{
+    width: 50%;
+    margin: 30px auto 0 auto;
+  }
+
+
+
+  .about {
+    padding: 10px 5px;
+    display: flex; /* Используйте Flexbox */
+    justify-content: center; /* Выровняйте содержимое */
+    gap: 10px; /* Укажите расстояние между элементами */
+  }
+  
+  .about-text {
+    flex: auto; /* Задайте, как текст будет занимать пространство */
+    min-width: 250px;
+  }
+  
+  .about img {
+    flex: auto;
+    max-width: 800px; /* Установите максимальную ширину изображения */
+    border-radius: 10px; /* Добавьте скругленные углы */
+  }
+
+
+  .services {
+    background-color: rgb(161, 219, 226); /* Цвет фона */
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .cards {
+    margin: 20px 0 0 0;
+    display: flex; /* Используйте Flexbox */
+    justify-content: space-around; /* Выровняйте карточки */
+    gap: 20px; /* Расстояние между карточками */
+  }
+  
+  .card {
+    background-color: whitesmoke; /* Цвет фона карточки */
+    padding: 20px;
+    width: 200px; /* Укажите ширину карточки */
+    border-radius: 10px; /* Скруглите углы */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Добавьте тень */
+  }
+
+  .card p{
+    font-size: 16px;
+  }
+
+  footer {
+    background-color: royalblue; /* Укажите цвет фона */
+    color: yellowgreen; /* Цвет текста */
+    text-align: center; /* Выравнивание текста */
+    padding: 30px;
+  }
